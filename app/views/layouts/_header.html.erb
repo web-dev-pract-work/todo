@@ -4,7 +4,7 @@
     <a class="active" href="#home">Home</a>
     
     <% if user_signed_in? %>
-        <a><%= button_to "Log out", destroy_user_session_path, method: :delete %></a>
+        <a> <%= button_to "Log out", destroy_user_session_path, method: :delete, class:"myClass" %> </a>
     <% else %>
         <a href="<%= new_user_session_path %>">sign in</a>
         <a href="<%= new_user_registration_path %>">sign up</a>
