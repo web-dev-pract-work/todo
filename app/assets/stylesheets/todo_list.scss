@@ -1,0 +1,20 @@
+// Place all the styles related to the TodoList controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+// .outline{
+//     outline-style: double;
+// }
+
+li{
+    margin: 30px;
+    outline-offset: 5px;
+    outline-style: double;
+    background-color: rgba(156, 185, 238, 0.308);
+    display: inline;
+}
+
+.new_todo_link{
+    padding: 30px;
+}
